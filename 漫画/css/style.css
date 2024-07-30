@@ -1,1 +1,134 @@
+body {
+    background: rgb(200, 198, 201);
+           
+}
 
+h2 {
+    color: rgb(240, 4, 224);
+}
+
+.contact-us {
+    width: 100ex;
+    background: #f5e3ff;
+    padding: 50px;
+    margin: 100px auto;
+    border-radius: 30px;
+    position: relative;
+}
+
+.social-icon {
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 400px;
+    display: flex;
+}
+
+.social-icon div {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.social-icon div a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #5100de;
+    font-size: 13px;
+}
+
+.social-icon div.home {
+    background: #e563ff;
+}
+
+.social-icon div.research {
+    background: #e885fc;
+}
+
+.social-icon div.contact {
+    background: #e9bcff;
+}
+
+.social-icon div.contac {
+    background: #ef9dff;
+}
+
+img {
+    border-radius: 15%;
+}
+
+.form,
+.form-item {
+    top: 20px;
+    width: 100%;
+}
+
+.form-item .input {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    border: none;
+    padding: 25px 40px;
+    box-sizing: border-box;
+    background: rgb(238, 237, 234);
+
+}
+
+.form-item {
+    position: relative;
+}
+
+.form-item .fas {
+    position: absolute;
+    top: 25px;
+    left: 15px;
+}
+
+.btn {
+    text-align: center;
+    width: 95%;
+    background: #ffb5fe;
+    border-radius: 20px;
+    padding: 10px 6px;
+    color: #b536ff;
+    cursor: pointer;
+    margin: 10px;
+
+}
+
+.block {
+    float: left;
+    border-radius: 1em;
+    width: 750px;
+    border: 3px solid rgb(128, 0, 191);
+    padding: 10px;
+    background-color: rgb(241, 225, 255);
+    margin-left: 50px;
+}
+
+h3 {
+    background-color: rgb(226, 187, 252);
+    border-radius: 1em;
+    width: 55%;
+    padding-left: 8px;
+    height: 25px;
+    font-size: 18px;
+}
+
+a:hover {
+    background-color: rgb(255, 90, 90);
+    color: rgb(110, 221, 255);
+    border-radius: 3em;
+    font-size: larger;
+}
+
+h4 {
+    color: rgb(168, 83, 177);
+
+}
